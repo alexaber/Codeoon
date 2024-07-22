@@ -205,3 +205,14 @@ font{
 }...////
 ....
 ......
+#animate_link_stark_work:hover{
+    color: #00ffff;
+    border-top-color: #00ffff;
+    border-right-color: #00ffff;
+    border-bottom-color: #00ffff;
+    border-left-color: #00ffff;
+    transition: color 0.5s,
+    			border-top-color 0.25s ease-out,
+                border-right-color 0.25s ease-out 0.25s,
+                border-bottom-color 0.25s ease-out 0.5s,
+                border-left-color 0.25s ease-out 0.75s;
